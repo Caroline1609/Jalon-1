@@ -1,7 +1,6 @@
-# Jalon-1
-Réception d'un message électronique
-
-Programme à réaliser :
+/* Programme à réaliser :
+ 
+[Réception d'un message électronique] 
  
 Lorsqu’un email est réceptionné par un serveur de messagerie, quelques vérifications sont nécessaires avant que l’email soit transmis à son destinataire final.  
  
@@ -9,5 +8,16 @@ Il est indispensable de contrôler que l’adresse email du destinataire existe 
  
 Si toutes les contrôles sont satisfaisants, l’email est transmis au destinataire.  
  
-Le destinataire a peut-être activé un message d’absence (réponse automatique). Si tel est le cas, celui-ci est transmis à l’expéditeur. 
+Le destinataire a peut-être activé un message d’absence (réponse automatique). Si tel est le cas, celui-ci est transmis à l’expéditeur. */
 
+
+
+public class exo {
+    public static void main(String[] args) {
+        
+        String Email;
+        int Espacedispo;
+        
+
+    }
+}
