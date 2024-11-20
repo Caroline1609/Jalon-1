@@ -16,7 +16,13 @@ public class exo {
     public static void main(String[] args) {
         
         String Email;
+        String VerificationEmail;
         int Espacedispo;
+        int VerificationPJ;
+
+        if (Email  ){
+
+        }
         
 
     }
