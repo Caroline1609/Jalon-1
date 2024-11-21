@@ -14,16 +14,40 @@ Le destinataire a peut-être activé un message d’absence (réponse automatiqu
 
 public class exo {
     public static void main(String[] args) {
+                
+        String EmailDesti = "Caroline.XXXXXXX@wwwwwwww.ccc"; //entre le mail destinataire
+        String verifEmailDesti = "Caroline.XXXXXXX@wwwww.ccc"; // On vérifie si elle est valide.
+        int reponse;
+
+        int DestiEspace = 35; // Espace disponible dans la boite mail
+        int Destiverifemail = 20; // verification du mail
+
+        int analyseAV = 25; // L'analyse antivirus n'accepte pas les PJ inférieur à 25 Mo 
+        int Pj = 30; // PJ a 30 mo.
+
         
-        String Email;
-        String VerificationEmail;
-        int Espacedispo;
-        int VerificationPJ;
+        
 
-        if (Email  ){
+        if (Destiverifemail < DestiEspace && Pj >= analyseAV ){
 
+            System.out.println(EmailDesti.equals(verifEmailDesti));
+            System.out.println("Envoi du mail");
+
+
+
+
+        } else {
+            System.out.println("Non envoi du mail");
         }
         
 
     }
+
+
+
+
+
+
+
+
 }
